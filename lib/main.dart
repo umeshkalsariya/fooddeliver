@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fooddeliver/practic_screen.dart';
 import 'package:fooddeliver/rate_food.dart';
+import 'package:fooddeliver/utsav_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const RateFoodScreen(),
+      home: const Profile(),
     );
   }
 }
